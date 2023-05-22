@@ -7,3 +7,7 @@ n = int(input("Длина шоколадки: "))
 m = int(input("Ширина шоколадки: "))
 k = int(input("Количество долек: "))
 
+if k<=m*n and (k % m == 0 or k % n == 0):
+    print("Yes")
+else:
+    print("No")
